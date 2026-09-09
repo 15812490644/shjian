@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="44f934a2-ca06-4b95-898b-dcb9d61c4173" version="1">
+  <Properties>
+    <Name>Events Popup Framework</Name>
+    <Description>Events Popup Framework is a tool to give an easy acess for the modder community to create events popup.</Description>
+    <Created>1715979586</Created>
+    <Teaser>A tool for modders who wish to add Events Popup</Teaser>
+    <Authors>SpatialX</Authors>
+    <SpecialThanks>Steam User 猭音 from wich most files comes from</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <ImportFiles id="EventInterface">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>Scripts/EventBuilder.lua</File>
+      <File>Scripts/EventPopup.xml</File>
+    </ImportFiles>
+    <ReplaceUIScript id="EventInterface">
+      <Properties>
+        <LuaContext>EventPopup</LuaContext>
+        <LuaReplace>Scripts/EventBuilder.lua</LuaReplace>
+      </Properties>
+    </ReplaceUIScript>
+    <ImportFiles id="DefaultIcons">
+      <File>Textures/Event_Default1.dds</File>
+      <File>Textures/Event_Default2.dds</File>
+      <File>Textures/Event_Default3.dds</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>Scripts/EventBuilder.lua</File>
+    <File>Scripts/EventPopup.xml</File>
+    <File>Textures/Event_Default1.dds</File>
+    <File>Textures/Event_Default2.dds</File>
+    <File>Textures/Event_Default3.dds</File>
+  </Files>
+</Mod>
