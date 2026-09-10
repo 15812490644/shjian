@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="505e2f65-63db-475e-a39e-23bc13c3abef" version="1">
+  <Properties>
+    <Name>Events Template</Name>
+    <Description>A simple exemple mod to show how Events Popup Framework works</Description>
+    <Created>1715878815</Created>
+    <Teaser>A simple exemple mod to show how Events Popup Framework works</Teaser>
+    <Authors>SpatialX</Authors>
+    <SpecialThanks>Steam User 猭音 from wich most files comes from</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <File>Database/EventsList.sql</File>
+    </UpdateDatabase>
+    <UpdateIcons id="Icons">
+      <File>Database/Events_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="Text">
+      <File>Database/Events_Text.xml</File>
+    </UpdateText>
+    <AddGameplayScripts id="EventGameplay">
+      <Properties>
+        <LoadOrder>30000</LoadOrder>
+      </Properties>
+      <File>Scripts/Template_EventsDefinitions.lua</File>
+    </AddGameplayScripts>
+    <ImportFiles id="IconsImport">
+      <File>texture/Event_Default1.dds</File>
+      <File>texture/Event_Default2.dds</File>
+      <File>texture/Event_Default3.dds</File>
+      <File>texture/Event_500x300.dds</File>
+      <File>texture/Event_38x38.dds</File>
+      <File>texture/Event_300x400.dds</File>
+    </ImportFiles>
+  </InGameActions>
+  <Files>
+    <File>Database/EventsList.sql</File>
+    <File>Database/Events_Icons.xml</File>
+    <File>Database/Events_Text.xml</File>
+    <File>Scripts/Template_EventsDefinitions.lua</File>
+    <File>texture/Event_300x400.dds</File>
+    <File>texture/Event_38x38.dds</File>
+    <File>texture/Event_500x300.dds</File>
+    <File>texture/Event_Default1.dds</File>
+    <File>texture/Event_Default2.dds</File>
+    <File>texture/Event_Default3.dds</File>
+  </Files>
+</Mod>

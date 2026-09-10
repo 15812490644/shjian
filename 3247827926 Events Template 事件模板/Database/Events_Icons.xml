@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: lhjg -->
+<!-- DateCreated: 3/8/2023 12:05:31 AM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_EVENT_ICON_EFFECT" IconSize="38" Filename="Event_38x38.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_EVENT_EFFECT" Atlas="ATLAS_EVENT_ICON_EFFECT" Index="0"/>
+	</IconDefinitions>
+</GameData>

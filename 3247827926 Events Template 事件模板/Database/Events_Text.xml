@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: lhjg -->
+<!-- DateCreated: 3/8/2023 12:05:31 AM -->
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_EVENT_TEMPLATE_ONE_CHOICE_TITLE" Language="en_US">
+			<Text>One choice Event Template</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_ONE_CHOICE_DESCRIPTION" Language="en_US">
+			<Text>[newline]Your event descriptions goes here, but we don't use it...(It's ugly)[newline]</Text>
+		</Row>
+        <Row Tag="LOC_EVENT_TEMPLATE_ONE_CHOICE_EFFECT" Language="en_US">
+			<Text>This event is a one choice event, it's effect are granted to the player instantly upon triggering. [newline][newline]You need to define it both inside "EventsList.sql" and "Template_EventsDefinitions.lua", in the case of this event we checks each turn for it's trigger, it's trigger is to fire in the second turn. Aslo the next event is next turn.</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_ONE_CHOICE_CONTINUE" Language="en_US">
+			<Text>This button is just for show, you already got your bonus</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_ONE_CHOICE" Language="en_US">
+			<Text>But do you fancy some [ICON_GOLD] Gold? I can give you 10 gold.</Text>
+		</Row>
+
+
+		<!-- TWO CHOICE EVENT -->
+		<Row Tag="LOC_EVENT_TEMPLATE_TWO_CHOICE_TITLE" Language="en_US">
+			<Text>Two choice Event Template</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_TWO_CHOICE_DESCRIPTION" Language="en_US">
+			<Text>[newline]By the way, don't import your images like I did, they have much less contrast[newline]</Text>
+		</Row>
+        <Row Tag="LOC_EVENT_TEMPLATE_TWO_CHOICE_EFFECT" Language="en_US">
+			<Text>This is a two choice event, the buttons effect are granted only after you click on one of them.[newline][newline]We have 2 kind of images we can use, a foreground image of 500 by 300 pixels or an background image of 300 by 400 pixels</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_TWO_CHOICE_CONTINUE" Language="en_US">
+			<Text>I don't know why we have a continue text in this case, maybe it's just to stop bugs... Just left it blank I guess</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_TWO_CHOICE_1" Language="en_US">
+			<Text>It's an 38 by 38 icon. Also +6 [ICON_GOLD] gold for you</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_TWO_CHOICE_2" Language="en_US">
+			<Text>Triggers the 1 choice event</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_TWO_CHOICE_CHOICE_A" Language="en_US">
+			<Text>Your custom icon here</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_TWO_CHOICE_CHOICE_B" Language="en_US">
+			<Text>launch the previous turn event</Text>
+		</Row>
+
+		
+		
+		
+		<!-- THREE CHOICE EVENT -->
+		<Row Tag="LOC_EVENT_TEMPLATE_THREE_CHOICE_TITLE" Language="en_US">
+			<Text>THREE choice Event Template</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_THREE_CHOICE_DESCRIPTION" Language="en_US">
+			<Text>[newline]In the case two choices is not enough for you[newline]</Text>
+		</Row>
+        <Row Tag="LOC_EVENT_TEMPLATE_THREE_CHOICE_EFFECT" Language="en_US">
+			<Text>This is a three choice event, similar in kind with the two choice event. It is bigger than the previous ones and to use it, you have to writedown the C effects.</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_THREE_CHOICE_CONTINUE" Language="en_US">
+			<Text> </Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_THREE_CHOICE_1" Language="en_US">
+			<Text>Launch again the 1 option event</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_THREE_CHOICE_2" Language="en_US">
+			<Text>Launch again the 2 option event</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_THREE_CHOICE_3" Language="en_US">
+			<Text>Now this is getting out of hand</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_THREE_CHOICE_CHOICE_A" Language="en_US">
+			<Text>Launch again the 1 option event</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_THREE_CHOICE_CHOICE_B" Language="en_US">
+			<Text>Launch again the 2 option event</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_THREE_CHOICE_CHOICE_C" Language="en_US">
+			<Text>Do you wanna know how many more options you can get?</Text>
+		</Row>
+		
+		
+		
+		<!-- SIX CHOICE EVENT -->
+		<Row Tag="LOC_EVENT_TEMPLATE_SIX_CHOICE_TITLE" Language="en_US">
+			<Text>SIX choice Event Template</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_SIX_CHOICE_DESCRIPTION" Language="en_US">
+			<Text>[newline]For when you truly need all the options[newline]</Text>
+		</Row>
+        <Row Tag="LOC_EVENT_TEMPLATE_SIX_CHOICE_EFFECT" Language="en_US">
+			<Text>This is a six choice event, we could go higher but this would not fit the screen anymore, so this framework will limit itself at six choices.[newline][newline]Note, 4 and 5 options events also exists, for this don't write down the F informations for a 5 options event, and also don't write the E informations for a 4 options event. [newline]Doing things like writing A,B,D without C will not break the game but you will have a blank unlock.</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_SIX_CHOICE_CONTINUE" Language="en_US">
+			<Text> </Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_SIX_CHOICE_1" Language="en_US">
+			<Text>Launch again 1 choice event</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_SIX_CHOICE_2" Language="en_US">
+			<Text>Launch again 2 choice event</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_SIX_CHOICE_3" Language="en_US">
+			<Text>Launch again 3 choice event</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_SIX_CHOICE_4" Language="en_US">
+			<Text>Get +4 [ICON_GOLD] gold and get out</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_SIX_CHOICE_5" Language="en_US">
+			<Text>Get +5 [ICON_GOLD] gold and mod yourself some actually good bonuses</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_SIX_CHOICE_6" Language="en_US">
+			<Text>Get +6 [ICON_GOLD] gold and leave me alone</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_SIX_CHOICE_CHOICE_A" Language="en_US">
+			<Text>Launch again 1 choice event</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_SIX_CHOICE_CHOICE_B" Language="en_US">
+			<Text>Launch again 2 choice event</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_SIX_CHOICE_CHOICE_C" Language="en_US">
+			<Text>Launch again 3 choice event</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_SIX_CHOICE_CHOICE_D" Language="en_US">
+			<Text>I'm running</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_SIX_CHOICE_CHOICE_E" Language="en_US">
+			<Text>out of</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_TEMPLATE_SIX_CHOICE_CHOICE_F" Language="en_US">
+			<Text>name ideas</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>

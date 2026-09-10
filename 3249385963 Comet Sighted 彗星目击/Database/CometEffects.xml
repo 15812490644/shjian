@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- CometEffects -->
+<!-- Author: maelg -->
+<!-- DateCreated: 5/17/2024 6:21:41 PM -->
+<GameData>
+
+
+
+	<Modifiers>
+
+		<Row>
+			<ModifierId>COMET_REMOVE_CULTURE_TURN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD_BASED_ON_CURRENT_YIELD_RATE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+
+		<Row>
+			<ModifierId>COMET_REMOVE_SCIENCE_TURN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD_BASED_ON_CURRENT_YIELD_RATE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+
+		<Row>
+			<ModifierId>COMET_REMOVE_GOLD_TURN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD_BASED_ON_CURRENT_YIELD_RATE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+
+		<Row>
+			<ModifierId>COMET_REMOVE_FAITH_TURN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD_BASED_ON_CURRENT_YIELD_RATE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+
+
+		<Row>
+			<ModifierId>COMET_GAIN_SCIENCE_TURN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD_BASED_ON_CURRENT_YIELD_RATE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+
+		<Row>
+			<ModifierId>COMET_GAIN_CULTURE_TURN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD_BASED_ON_CURRENT_YIELD_RATE</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+
+	</Modifiers>
+
+	<ModifierArguments>
+
+
+		<Row>
+			<ModifierId>COMET_REMOVE_CULTURE_TURN</ModifierId>
+			<Name>YieldToGrant</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMET_REMOVE_CULTURE_TURN</ModifierId>
+			<Name>YieldToBaseOn</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMET_REMOVE_CULTURE_TURN</ModifierId>
+			<Name>Multiplier</Name>
+			<Value>-2</Value>
+		</Row>
+
+		
+
+		<Row>
+			<ModifierId>COMET_REMOVE_SCIENCE_TURN</ModifierId>
+			<Name>YieldToGrant</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMET_REMOVE_SCIENCE_TURN</ModifierId>
+			<Name>YieldToBaseOn</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMET_REMOVE_SCIENCE_TURN</ModifierId>
+			<Name>Multiplier</Name>
+			<Value>-2</Value>
+		</Row>
+
+
+		<Row>
+			<ModifierId>COMET_REMOVE_GOLD_TURN</ModifierId>
+			<Name>YieldToGrant</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMET_REMOVE_GOLD_TURN</ModifierId>
+			<Name>YieldToBaseOn</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMET_REMOVE_GOLD_TURN</ModifierId>
+			<Name>Multiplier</Name>
+			<Value>-3</Value>
+		</Row>
+
+
+		<Row>
+			<ModifierId>COMET_REMOVE_FAITH_TURN</ModifierId>
+			<Name>YieldToGrant</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMET_REMOVE_FAITH_TURN</ModifierId>
+			<Name>YieldToBaseOn</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMET_REMOVE_FAITH_TURN</ModifierId>
+			<Name>Multiplier</Name>
+			<Value>-3</Value>
+		</Row>
+
+
+		<Row>
+			<ModifierId>COMET_GAIN_SCIENCE_TURN</ModifierId>
+			<Name>YieldToGrant</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMET_GAIN_SCIENCE_TURN</ModifierId>
+			<Name>YieldToBaseOn</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMET_GAIN_SCIENCE_TURN</ModifierId>
+			<Name>Multiplier</Name>
+			<Value>1</Value>
+		</Row>
+
+
+		<Row>
+			<ModifierId>COMET_GAIN_CULTURE_TURN</ModifierId>
+			<Name>YieldToGrant</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMET_GAIN_CULTURE_TURN</ModifierId>
+			<Name>YieldToBaseOn</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>COMET_GAIN_CULTURE_TURN</ModifierId>
+			<Name>Multiplier</Name>
+			<Value>2</Value>
+		</Row>
+		
+	</ModifierArguments>
+	
+</GameData>

@@ -1,0 +1,10 @@
+ID: 3249385963
+英文名称: Comet Sighted
+中文名称: 彗星目击事件（P社梗：流星雨触发随机事件）
+作者: SpatialX
+功能描述: 基于Events Popup Framework创建的具体事件模组。当游戏中发生流星雨（Meteor Shower）自然灾害时，会触发"彗星目击"（Comet Sighted）事件弹窗，向玩家展示事件描述和多个选择分支。这个设计是著名的P社游戏梗（"Comet Sighted"在欧陆风云等P社游戏中是经典随机事件）。流星雨是风云变幻扩展包+玛雅与大哥伦比亚DLC引入的灾害机制。
+扩展包兼容性: XP2（需玛雅与大哥伦比亚DLC提供流星雨灾害 + 风云变幻提供灾害系统）
+文件完整性: 完整（10个文件，含跨平台BLP）
+汉化状态: 无汉化
+依赖项: Events Popup Framework (44f934a2 / 3247819643), DLC: Grand Colombia Maya Civilization Pack (9DE86512)
+备注: 修正：原说明称"链式依赖：需要事件框架→事件模板→彗星目击按顺序启用"有误，实际modinfo中Comet Sighted仅依赖Events Popup Framework，不依赖Events Template。Events Template是独立示例模组，可单独安装但不影响彗星目击功能。

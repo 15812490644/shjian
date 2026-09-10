@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: lhjg -->
+<!-- DateCreated: 3/8/2023 12:05:31 AM -->
+<GameData>
+	<LocalizedText>	
+		
+		<Row Tag="LOC_EVENT_COMET_SIGHTED_TITLE" Language="en_US">
+			<Text>Comet Sighted</Text>
+		</Row>
+		
+		<Row Tag="LOC_EVENT_KOMET_SIGHTED_TITLE" Language="en_US">
+			<Text>Komet Sighted</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_EVENT_COMET_SIGHTED_DESCRIPTION" Language="en_US">
+			<Text> </Text>
+		</Row>
+		
+		<!-- SIX CHOICE EVENT -->
+		<Row Tag="LOC_EVENT_COMET_BAD_TITLE" Language="en_US">
+			<Text>Comet Sighted</Text>
+		</Row>
+        
+		<Row Tag="LOC_EVENT_COMET_BAD_TEXT_EU4" Language="en_US">
+			<Text>Peasants are always superstitious, and the appearance of a comet in the sky has caused panic among our people. They are convinced that this is a sign that the end of times is near or that something bad is going to happen in the near future. </Text>
+		</Row>
+
+		<Row Tag="LOC_EVENT_COMET_BAD_TEXT_CK3" Language="en_US">
+			<Text>The appearance of a comet in the heavens causes all mortals to pause. What could this strange apparition mean, wandering across our skies so unexpectedly?[newline][newline]Wiser men than I have spent their lifetimes pondering less, but every uppity peasant seems to have their own ill-thought theory...</Text>
+		</Row>
+
+		<Row Tag="LOC_EVENT_COMET_BAD_DESCRIPTION_A" Language="en_US">
+			<Text>Lose the equivalent of 3 [ICON_Turn] turn of [ICON_Faith] Faith</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_COMET_BAD_DESCRIPTION_B" Language="en_US">
+			<Text>Lose the equivalent of 2 [ICON_Turn] turn of [ICON_Culture] Culture</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_COMET_BAD_DESCRIPTION_C" Language="en_US">
+			<Text>Lose the equivalent of 3 [ICON_Turn] turn of [ICON_Gold] Gold</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_COMET_BAD_DESCRIPTION_D" Language="en_US">
+			<Text>Lose the equivalent of 2 [ICON_Turn] turn of [ICON_Science] Science</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_COMET_BAD_DESCRIPTION_E" Language="en_US">
+			<Text>Gains the [ICON_TechBoosted] Eureka for Astronomy[newline] Lose the equivalent of 4 [ICON_Turn] turn of [ICON_Science] Science</Text>
+		</Row>
+		
+		
+		
+		<Row Tag="LOC_EVENT_COMET_BAD_TEXT_A_EU4" Language="en_US">
+			<Text>It's an omen</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_COMET_BAD_TEXT_B_EU4" Language="en_US">
+			<Text>The end is nigh!</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_COMET_BAD_TEXT_C_EU4" Language="en_US">
+			<Text>The economy, fools!</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_COMET_BAD_TEXT_D_EU4" Language="en_US">
+			<Text>I wish I lived in more enlightened times...</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_COMET_BAD_TEXT_E_EU4" Language="en_US">
+			<Text>If only we had comet sense...</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_COMET_BAD_TEXT_F_EU4" Language="en_US">
+			<Text>Oh Comet, devil's kith and kin...</Text>
+		</Row>
+
+
+		<Row Tag="LOC_EVENT_COMET_BAD_TEXT_A_CK3" Language="en_US">
+			<Text>O comet, o harbinger of divine justice!</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_COMET_BAD_TEXT_B_CK3" Language="en_US">
+			<Text>This is judgment for our excesses!</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_COMET_BAD_TEXT_C_CK3" Language="en_US">
+			<Text>If this is the end, let us celebrate with friends!</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_COMET_BAD_TEXT_D_CK3" Language="en_US">
+			<Text>I hope it falls on a foe!</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_COMET_BAD_TEXT_E_CK3" Language="en_US">
+			<Text>It's probably just congealed peasant-gas.</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_COMET_BAD_TEXT_F_CK3" Language="en_US">
+			<Text>We are all motes before Creation.</Text>
+		</Row>
+		
+		
+		
+
+        
+		<Row Tag="LOC_EVENT_COMET_GOOD_TEXT" Language="en_US">
+			<Text>A comet was sighted in the sky, some belive that this portends fell times ahead. Others belive that they are in fact pixie fairies floating in the sky. There are also those who belive that this comet is most probably a giant ball of ice floating through the sky and the long tail is created due to the energy of the sun. The arguments amongst the three equally viable theories is stimulating the pursuit of knowledge in our country.</Text>
+		</Row>
+		
+		<Row Tag="LOC_EVENT_COMET_GOOD_TEXT_GREAT" Language="en_US">
+			<Text>Mysterious phenomena on the night sky have often been interpreted as bad omens or signs of the end times. An exceptionally noticeable such phenomenon, a great comet, has been visible recently, causing more of a stir than usual. Our scientist, however, has taken the opportunity to closely observe the comet's movements. The result has been a scientific work that tells us much about the object's distance from us and dispels many old superstitions about comets. While it appears uncertain if commoners will remember this in the future, this comet has provided more insight than fear.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_EVENT_COMET_GOOD_DESCRIPTION" Language="en_US">
+			<Text>Gain the equivalent of 1 [ICON_Turn] turn of [ICON_Science] Science</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_EVENT_COMET_GOOD_CHOICE_A" Language="en_US">
+			<Text>Thank God we live in such enlightened times</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_COMET_GOOD_CHOICE_B" Language="en_US">
+			<Text>Keep looking at the sky!</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_COMET_GOOD_CHOICE_C" Language="en_US">
+			<Text>A colonized comet would make a fine satellite!</Text>
+		</Row>
+		<Row Tag="LOC_EVENT_COMET_GOOD_CHOICE_D" Language="en_US">
+			<Text>Comet sense prevails</Text>
+		</Row>
+
+
+
+
+		<Row Tag="LOC_EVENT_COMET_MODERN_TEXT_A" Language="en_US">
+			<Text>Our peoples are naturally curious, and the appearance of a comet in the sky has sown a widespread sense of wonder among our cities. They are convinced that this is a sign of great things to come.</Text>
+		</Row>
+		
+		<Row Tag="LOC_EVENT_COMET_MODERN_TEXT_B" Language="en_US">
+			<Text>Observatory across our civilization report the sighting of a small, icy solar system body exhibiting outgassing at two hours, fifty-four minutes, eight seconds right ascension, ten-point-three degrees declination. The distance of the body has been triangulated at roughly three-point-seven-five astronomical units to the sun, and the size and visibility of the body's coma have been classified as noteworthy. The body's dimensions are calculated to be approximately five by ten by six kilometers. The sighting event concluded without incident.</Text>
+		</Row>
+
+		<Row Tag="LOC_EVENT_COMET_MODERN_TEXT_C" Language="en_US">
+			<Text>A lone, proud comet soars through the solar system, clearly visible from our capital. It forges its own path through the cosmos, vibrant and ever undeterred. This is the ideal which all strive for.</Text>
+		</Row>
+
+		<Row Tag="LOC_EVENT_COMET_MODERN_TEXT_D" Language="en_US">
+			<Text>A small celestial object with pronounced gaseous and particulate tails was recently observed in our solar system. Its passing was uneventful.</Text>
+		</Row>
+		
+		<Row Tag="LOC_EVENT_COMET_MODERN_TEXT_E" Language="en_US">
+			<Text>A light was seen moving in the night sky, its gentle arc standing in stark contrast to the slow revolution of the stars. The citizens of our civilization see it as proof of recognition by the powers that be, and a subtle blessing of our cause.</Text>
+		</Row>
+		
+		<Row Tag="LOC_EVENT_COMET_MODERN_TEXT_F" Language="en_US">
+			<Text>A fierce plume of flame sears the heavens as a comet skirts the upper stratosphere. The sheer power evident in its cosmic trajectory has made a profound impression on the capital's populace. They liken the intractability of its path to the inevitability of our civilization ascension to planetary supremacy.</Text>
+		</Row>
+		
+		<Row Tag="LOC_EVENT_COMET_MODERN_TEXT_G" Language="en_US">
+			<Text>A comet blazes a trail across the horizon, a bright envoy from distant stars. Our people find great joy in this reminder, vague as it is, that we are not alone in this universe. They are more supportive than ever of our ambition to greet the galaxy with open arms.</Text>
+		</Row>
+
+
+		<Row Tag="LOC_EVENT_COMET_MODERN_CONTINUE" Language="en_US">
+			<Text>It is a good omen.</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_EVENT_COMET_MODERN_CHOICE_A" Language="en_US">
+			<Text>Gain the equivalent of 2 [ICON_Turn] turn of [ICON_Culture] Culture</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_EVENT_COMET_BAD_MODERN_TEXT_A" Language="en_US">
+			<Text>Groups of citizens watched a comet streak across our sky. The appearance of this lonely stellar object caused seemingly disproportionate distress, and many turned to you for assurance that they are not alone. They are convinced that this is a sign of coming isolation and splintering of our society.</Text>
+		</Row>
+		
+		<Row Tag="LOC_EVENT_COMET_BAD_MODERN_TEXT_B" Language="en_US">
+			<Text>A dread comet haunts the skies above. Its implacable arc is a harsh reminder to our peoples that we are not alone, and that unknowable horrors from beyond the stars may be closer than they appear. We must take this as a sign to remain ever vigilant against alien influence.</Text>
+		</Row>
+
+		<Row Tag="LOC_EVENT_COMET_BAD_MODERN_CONTINUE" Language="en_US">
+			<Text>Alarming.</Text>
+		</Row>
+		
+		
+		<Row Tag="LOC_EVENT_COMET_BAD_MODERN_CHOICE_A" Language="en_US">
+			<Text>Lose the equivalent of 2 [ICON_Turn] turn of [ICON_Culture] Culture</Text>
+		</Row>
+
+		
+		
+		
+		
+		<Row Tag="LOC_EVENT_KOMET_PLANE_TEXT" Language="en_US">
+			<Text>The appearance of a Komet in the sky has caused unrest amongst our people. The Me 163 Komat, an experimental rocket plane out of one of its test flights, has shocked the rural population who have spotted this uniquely fast craft. It has been developed with the upmost secrecy, but will soon be unveiled. This minor incident will only make its first formal appearance all the more impressive.</Text>
+		</Row>
+
+		<Row Tag="LOC_EVENT_KOMET_PLANE_CONTINUE" Language="en_US">
+			<Text>The end is near... For our enemies</Text>
+		</Row>
+		
+		<Row Tag="LOC_EVENT_KOMET_PLANE_CHOICE" Language="en_US">
+			<Text>Gain enough experience to get a free [ICON_Promotion] promotion</Text>
+		</Row>
+
+	</LocalizedText>
+</GameData>
